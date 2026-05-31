@@ -1,5 +1,6 @@
 {
   "item.createpast.qicheng_zhixing": "QIXing",
+  "block.createpast.xing_block": "xing block",
 
   "createpast.configuration.title": "CreatePast Configs",
   "createpast.configuration.section.createpast.common.toml": "CreatePast Configs",
