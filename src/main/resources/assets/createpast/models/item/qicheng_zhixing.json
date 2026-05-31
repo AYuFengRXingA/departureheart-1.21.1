@@ -1,0 +1,7 @@
+{
+  "parent" : "item/generated",
+  "textures": {
+    "layer0": "createpast:item/qicheng_zhixing"
+  }
+
+}
