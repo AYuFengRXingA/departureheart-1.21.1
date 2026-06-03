@@ -1,0 +1,13 @@
+{
+  "item.departureheart.qicheng_zhixing": "QIXing",
+  "block.departureheart.xing_block": "xing block",
+  "itemGroup.departureheart_tab": "xing TAP",
+
+  "departureheart.configuration.title": "CreatePast Configs",
+  "departureheart.configuration.section.departureheart.common.toml": "CreatePast Configs",
+  "departureheart.configuration.section.departureheart.common.toml.title": "CreatePast Configs",
+  "departureheart.configuration.items": "Item List",
+  "departureheart.configuration.logDirtBlock": "Log Dirt Block",
+  "departureheart.configuration.magicNumberIntroduction": "Magic Number Text",
+  "departureheart.configuration.magicNumber": "Magic Number"
+}

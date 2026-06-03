@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#":{ "item":"departureheart:qicheng_zhixing"
+    }
+  },
+  "result": {
+    "id": "departureheart:xing_block",
+    "count": 1
+  }
+}

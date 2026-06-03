@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+
+    "item":
+    "departureheart:xing_block"
+    }
+  ],
+
+  "result": {
+    "id": "departureheart:qicheng_zhixing",
+    "count": 9
+  }
+}
