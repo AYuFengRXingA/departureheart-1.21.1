@@ -21,6 +21,8 @@ public class ModTap {
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.QICHENG_ZHIXING);
                         output.accept(ModBlocks.XING_BLOCK);
+                        output.accept(ModItems.JIXIAN_ZHIXING);
+                        output.accept(ModItems.CHIXINGZHUOMI);
                     })
                     .build());
     public static void register(IEventBus eventBus) {
