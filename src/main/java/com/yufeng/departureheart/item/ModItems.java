@@ -19,7 +19,7 @@ public class ModItems {
      public static final  DeferredItem<Item> JIXIAN_ZHIXING = ITEMS.register("jixian_zhixing",()->new Item(new Item.Properties()
      .stacksTo(64)
      ));
-     public static final DeferredItem<Item> CHIXINGZHUOMI = ITEMS.register("chiixngzhuomi",()->new Item(new Item.Properties()
+     public static final DeferredItem<Item> CHIXINGZHUOMI = ITEMS.register("chixingzhuomi",()->new Item(new Item.Properties()
              .food(new FoodProperties.Builder()
                      .nutrition(10)
                      .saturationModifier(1f)
@@ -28,7 +28,7 @@ public class ModItems {
                      .effect(new MobEffectInstance(MobEffects.REGENERATION,20000,5),1f)
                      .effect(new MobEffectInstance(MobEffects.DIG_SPEED,6000,3),1f)
                      .effect(new MobEffectInstance(MobEffects.NIGHT_VISION,20000,1),1f)
-                     .effect(new MobEffectInstance(MobEffects.DIG_SPEED,6000,3),1f)
+                     .effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED,6000,3),1f)
                      .build())
              .fireResistant()
              .stacksTo(32)));

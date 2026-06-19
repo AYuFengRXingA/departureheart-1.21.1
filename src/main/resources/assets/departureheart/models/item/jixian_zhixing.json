@@ -1,7 +1,7 @@
 {
   "parent" : "item/generated",
   "textures": {
-    "layer0": "departureheart:item/jixian_zhiixng"
+    "layer0": "departureheart:item/jixian_zhixing"
   }
 
 }
