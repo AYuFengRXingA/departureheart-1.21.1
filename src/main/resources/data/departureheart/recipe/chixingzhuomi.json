@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {"item": "minecraft:honey_block"},
+    "B": {"item": "create:honeyed_apple"},
+    "C": {"item": "departureheart:jixian_zhixing"},
+    "D": {"item": "minecraft:nether_star"}
+  },
+  "pattern": [
+    "AABAA",
+    "ACCCA",
+    "BCDCB",
+    "ACCCA",
+    "AABAA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "departureheart:chixingzhuomi"
+  },
+  "show_notification": true
+}
