@@ -1,8 +1,14 @@
 {
   "item.departureheart.qicheng_zhixing": "启程之心",
+  "item.departureheart.qicheng_zhixing.desc": "从此刻，便是启程",
   "item.departureheart.chixingzhuomi": "炽心灼蜜",
+  "item.departureheart.chixingzhuomi.desc": "你已触碰神的力量",
   "item.departureheart.jixian_zhixing": "极限之心",
+  "item.departureheart.jixian_zhixing.desc": "那颗心正在狂跳",
   "block.departureheart.xing_block": "启程之心块",
+  "item.departureheart.yujinsuipian": "余烬碎片",
+  "item.departureheart.yujinsuipian.desc": "仍有些许温热...",
   "itemGroup.departureheart_tab": "启程之时"
+
 
 }

@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A":{ "item":"departureheart:yujinsuipian"},
+    "B":{ "item":"minecraft:diamond"},
+    "C":{ "item":"departureheart:qicheng_zhixing"}
+  },
+  "result": {
+    "id": "departureheart:jixian_zhixing",
+    "count": 1
+  }
+}

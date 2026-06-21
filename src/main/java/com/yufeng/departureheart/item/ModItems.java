@@ -6,6 +6,7 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Rarity;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -15,9 +16,11 @@ public class ModItems {
             DeferredRegister.createItems(DepartureHeart.MOD_ID);
      public static final DeferredItem<Item> QICHENG_ZHIXING = ITEMS.register("qicheng_zhixing",()->new Item(new Item.Properties()
              .stacksTo(64)
+             .rarity(Rarity.UNCOMMON)
      ));
      public static final  DeferredItem<Item> JIXIAN_ZHIXING = ITEMS.register("jixian_zhixing",()->new Item(new Item.Properties()
      .stacksTo(64)
+             .rarity(Rarity.RARE)
      ));
      public static final DeferredItem<Item> CHIXINGZHUOMI = ITEMS.register("chixingzhuomi",()->new Item(new Item.Properties()
              .food(new FoodProperties.Builder()
@@ -31,7 +34,11 @@ public class ModItems {
                      .effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED,20000,3),1f)
                      .build())
              .fireResistant()
-             .stacksTo(32)));
+             .stacksTo(32)
+             .rarity(Rarity.EPIC)));
+     public static final DeferredItem<Item> YUJINSUIPIAN = ITEMS.register("yujinsuipian",()->new Item(new Item.Properties()
+             .stacksTo(64)
+             .rarity(Rarity.RARE)));
 
      public static void register(IEventBus eventBus) {
          ITEMS.register(eventBus);

@@ -23,6 +23,7 @@ public class ModTap {
                         output.accept(ModBlocks.XING_BLOCK);
                         output.accept(ModItems.JIXIAN_ZHIXING);
                         output.accept(ModItems.CHIXINGZHUOMI);
+                        output.accept(ModItems.YUJINSUIPIAN);
                     })
                     .build());
     public static void register(IEventBus eventBus) {
