@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "com.yufeng.departureheart.mixin",
+  "package": "com.yufeng.departureheart.mixins",
   "compatibilityLevel": "JAVA_21",
   "mixins": [],
   "injectors": {

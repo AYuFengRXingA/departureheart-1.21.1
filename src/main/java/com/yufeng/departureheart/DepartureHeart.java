@@ -30,14 +30,19 @@ public class DepartureHeart {
     //不想写注释,自己看吧（
 
 
+
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
     public DepartureHeart(IEventBus modEventBus, ModContainer modContainer) {
+
+
+
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModTap.register(modEventBus);
+        NeoForge.EVENT_BUS.register(new DepartureHeartEvent());
 
 
         // Register ourselves for server and other game events we are interested in.

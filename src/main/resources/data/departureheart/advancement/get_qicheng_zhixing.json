@@ -1,0 +1,28 @@
+{
+
+  "criteria": {
+  "get_chixingzhuomi": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": {
+        "items": [
+          "departureheart:qicheng_zhixing"
+        ]
+      }
+    }
+  }
+},
+  "display": {
+    "icon": {
+      "id": "departureheart:qicheng_zhixing"
+    },
+    "title": "万物起源",
+    "description": "此刻，便是启程之时",
+    "background": "departureheart:textures/gui/advancements/backgrounds/qicheng_zhixing.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  }
+
+}

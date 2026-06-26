@@ -1,0 +1,28 @@
+{
+
+  "parent": "departureheart:get_qicheng_zhixing",
+  "criteria": {
+    "get_jixian_zhixing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": {
+          "items": [
+            "departureheart:jixian_zhixing"
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "departureheart:jixian_zhixing"
+    },
+    "title": "余烬未灭",
+    "description": "它仍在跳动",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  }
+
+}

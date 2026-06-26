@@ -1,0 +1,28 @@
+{
+
+  "parent": "departureheart:get_jixian_zhixing",
+  "criteria": {
+  "eat_chixingzhuomi": {
+    "trigger": "minecraft:consume_item",
+    "conditions": {
+      "item": {
+        "items": [
+          "departureheart:chixingzhuomi"
+        ]
+      }
+    }
+  }
+},
+  "display": {
+    "icon": {
+      "id": "departureheart:chixingzhuomi"
+    },
+    "title": "天上天下，唯我独尊",
+    "description": "你已获得超越一切的力量",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  }
+
+}

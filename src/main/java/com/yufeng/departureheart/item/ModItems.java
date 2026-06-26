@@ -39,6 +39,10 @@ public class ModItems {
      public static final DeferredItem<Item> YUJINSUIPIAN = ITEMS.register("yujinsuipian",()->new Item(new Item.Properties()
              .stacksTo(64)
              .rarity(Rarity.RARE)));
+     public static final DeferredItem<Item> BUMIETUTENG = ITEMS.register("bumietuteng",()->new Item(new Item.Properties()
+             .stacksTo(1)
+             .rarity(Rarity.EPIC)
+             .fireResistant()));
 
      public static void register(IEventBus eventBus) {
          ITEMS.register(eventBus);
