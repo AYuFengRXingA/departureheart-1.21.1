@@ -1,0 +1,28 @@
+{
+
+  "parent": "departureheart:eat_chixingzhuomi",
+  "criteria": {
+    "eat_chixingzhuomi": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "departureheart:bumietuteng"
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "departureheart:bumietuteng"
+    },
+    "title": "神临",
+    "description": "无虑，无悔，无敌",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  }
+
+}
