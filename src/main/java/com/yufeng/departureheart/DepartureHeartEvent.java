@@ -1,6 +1,8 @@
 package com.yufeng.departureheart;
 
 import com.yufeng.departureheart.item.ModItems;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.gameevent.GameEvent;
@@ -27,7 +29,11 @@ public class DepartureHeartEvent {
 
         player.removeAllEffects();
 
+        player.addEffect(new MobEffectInstance(MobEffects.ABSORPTION,600000,255));
+
         player.gameEvent(GameEvent.DRINK);
+
+
 
 
 
