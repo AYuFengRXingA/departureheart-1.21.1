@@ -5,11 +5,11 @@
     "get_jixian_zhixing": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": {
+        "items": [{
           "items": [
             "departureheart:jixian_zhixing"
           ]
-        }
+        }]
       }
     }
   },

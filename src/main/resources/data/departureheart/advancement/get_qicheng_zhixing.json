@@ -4,11 +4,11 @@
   "get_chixingzhuomi": {
     "trigger": "minecraft:inventory_changed",
     "conditions": {
-      "items": {
+      "items":[ {
         "items": [
           "departureheart:qicheng_zhixing"
         ]
-      }
+      }]
     }
   }
 },

@@ -5,11 +5,11 @@
     "eat_chixingzhuomi": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "item": {
+        "items": [{
           "items": [
             "departureheart:bumietuteng"
           ]
-        }
+        }]
       }
     }
   },
