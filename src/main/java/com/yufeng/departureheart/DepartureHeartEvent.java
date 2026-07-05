@@ -30,6 +30,8 @@ public class DepartureHeartEvent {
         player.removeAllEffects();
 
         player.addEffect(new MobEffectInstance(MobEffects.ABSORPTION,600000,255));
+        player.addEffect(new MobEffectInstance(MobEffects.SATURATION,600000,255));
+        player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST,600000,255));
 
         player.gameEvent(GameEvent.DRINK);
 

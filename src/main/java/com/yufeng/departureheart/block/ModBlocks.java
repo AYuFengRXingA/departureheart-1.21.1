@@ -26,7 +26,9 @@ public class ModBlocks {
 
     // 注册示例方块
     public static final DeferredBlock<Block> XING_BLOCK = registerBlock("xing_block",
-            () -> new Block(BlockBehaviour.Properties.of().strength(1.5f, 6.0f)));
+            () -> new Block(BlockBehaviour.Properties.of().strength(1.5f, 1.0f)));
+    public static final DeferredBlock<Block> STARLIGHT = registerBlock("starlight",
+            ()-> new Block(BlockBehaviour.Properties.of().strength(1.5f, 1.0f)));
 
 
 
