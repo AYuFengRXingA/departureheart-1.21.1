@@ -1,0 +1,28 @@
+{
+
+  "parent": "departureheart:get_qicheng_zhixing",
+  "criteria": {
+    "get_jixian_zhixing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "items": [
+            "departureheart:jixiezhixing"
+          ]
+        }]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "departureheart:jixiezhixing"
+    },
+    "title": "朋克科技",
+    "description": "卡擦卡擦",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  }
+
+}

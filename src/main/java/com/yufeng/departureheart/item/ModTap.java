@@ -25,6 +25,9 @@ public class ModTap {
                         output.accept(ModItems.CHIXINGZHUOMI);
                         output.accept(ModItems.YUJINSUIPIAN);
                         output.accept(ModItems.BUMIETUTENG);
+                        output.accept(ModItems.UNIVERSAL_TOOL);
+                        output.accept(ModItems.JIXIEZHIXING);
+                        output.accept(ModItems.NOJIXIEZHIXING);
                     })
                     .build());
     public static void register(IEventBus eventBus) {
