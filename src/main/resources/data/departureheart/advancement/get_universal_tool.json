@@ -1,13 +1,13 @@
 {
 
-  "parent": "departureheart:get_qicheng_zhixing",
+  "parent": "departureheart:get_jixiezhixing",
   "criteria": {
     "get_jixian_zhixing": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [{
           "items": [
-            "departureheart:jixiezhixing"
+            "departureheart:universal_tool"
           ]
         }]
       }
@@ -15,11 +15,11 @@
   },
   "display": {
     "icon": {
-      "id": "departureheart:jixiezhixing"
+      "id": "departureheart:universal_tool"
     },
-    "title": "机械飞升",
-    "description": "咔擦咔擦",
-    "frame": "goal",
+    "title": "朋克科技",
+    "description": "挖库挖库",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
