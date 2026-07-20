@@ -14,6 +14,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
+
 public class ModItems {
     public static final DeferredRegister.Items ITEMS =
             DeferredRegister.createItems(DepartureHeart.MOD_ID);
@@ -54,7 +55,8 @@ public class ModItems {
                                     .attributes(DiggerItem.createAttributes(ModTool.UNIVERSAL, 3.0F, -2.4F))
                                     .fireResistant()
                                     .rarity(Rarity.EPIC)
-                                    .component(DataComponents.UNBREAKABLE, new Unbreakable(true))  // 无限耐久
+                                    .durability(9999)
+                                    //.component(DataComponents.UNBREAKABLE, new Unbreakable(true))  // 无限耐久
                     )
             );
     public  static final DeferredItem<Item> JIXIEZHIXING = ITEMS.register("jixiezhixing",()->new Item(new Item.Properties()
