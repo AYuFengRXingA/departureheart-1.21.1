@@ -8,5 +8,5 @@ import net.minecraft.world.item.enchantment.Enchantment;
 public class ModTags {
     public static final TagKey<Enchantment> UNIVERSAL_TOOL_ENCHANMENT =
             TagKey.create(Registries.ENCHANTMENT,
-                    ResourceLocation.fromNamespaceAndPath("departureheart", "universal_tool_enchantment"));
+                    ResourceLocation.fromNamespaceAndPath("departureheart", "universal_tool_enchantment"));//为自定义tag标签
 }

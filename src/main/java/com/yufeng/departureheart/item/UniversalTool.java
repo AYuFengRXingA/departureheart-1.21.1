@@ -18,25 +18,25 @@ public class UniversalTool extends DiggerItem {
     @Override
     public float getDestroySpeed(ItemStack stack, BlockState state) {
         return this.getTier().getSpeed() * 2f;
-    }
+    }//挖掘方块速度
 
     @Override
     public boolean isCorrectToolForDrops(ItemStack stack, BlockState state) {
         return true;
-    }
+    }//挖掘方块返回为真，即必定掉落
 
     @Override
     public boolean isEnchantable(ItemStack stack) {
         return true;
-    }
+    }//是否能被附魔
 
     @Override
     public int getEnchantmentValue(ItemStack stack) {
         return 30;
-    }
+    }//返回附魔能力值
     public boolean supportsEnchantment(ItemStack stack, Holder<Enchantment> enchantment) {
         return enchantment.is(ModTags.UNIVERSAL_TOOL_ENCHANMENT);
-    }
+    }//工具附魔js标签
 
 
 

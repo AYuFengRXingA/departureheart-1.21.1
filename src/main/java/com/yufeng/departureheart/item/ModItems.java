@@ -1,15 +1,12 @@
 package com.yufeng.departureheart.item;
 
 import com.yufeng.departureheart.DepartureHeart;
-import net.minecraft.core.component.DataComponents;
-import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.DiggerItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.component.Unbreakable;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -50,13 +47,13 @@ public class ModItems {
     public static final DeferredItem<UniversalTool> UNIVERSAL_TOOL =
             ITEMS.register("universal_tool",
                     () -> new UniversalTool(
-                            ModTool.UNIVERSAL,
+                            ModToolTier.UNIVERSAL,
                             new Item.Properties()
-                                    .attributes(DiggerItem.createAttributes(ModTool.UNIVERSAL, 3.0F, -2.4F))
+                                    .attributes(DiggerItem.createAttributes(ModToolTier.UNIVERSAL, 3.0F, -2.4F))
                                     .fireResistant()
                                     .rarity(Rarity.EPIC)
                                     .durability(9999)
-                                    //.component(DataComponents.UNBREAKABLE, new Unbreakable(true))  // 无限耐久
+                                    //.component(DataComponents.UNBREAKABLE, new Unbreakable(true))  //无法破坏
                     )
             );
     public  static final DeferredItem<Item> JIXIEZHIXING = ITEMS.register("jixiezhixing",()->new Item(new Item.Properties()
